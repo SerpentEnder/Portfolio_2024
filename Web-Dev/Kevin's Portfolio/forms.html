@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin's Portfolio - Forms & Multimedia</title>
+    <link rel="stylesheet" href="master.css">
+<body>
+   <header>
+        <h1>Kevin's Portfolio - Forms & Multimedia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aliquid iure, labore animi architecto in, quia, velit corporis repudiandae quo fugit illum cupiditate? Voluptatem minima recusandae eligendi aut a ex.</p>
+   </header> 
+   <hr>
+   <section>
+        <h3 class="sectionHeader">Forms</h3>
+
+        <form action="https://wp.zybooks.com/form-viewer.php" target="blank" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <!-- LEFT COLUMN -->
+                    <td>
+                        <table>
+                            <tr>
+                               <td class="noborder">First Name:</td> 
+                               <td class="noborder"><input type="text" name="firstName" id="firstName"></td>
+                            </tr>
+                            <tr>
+                                <td class="noborder">Last Name:</td> 
+                                <td class="noborder"><input type="text" name="lastName" id="lastName"></td>
+                             </tr>
+                             <tr>
+                                <td class="noborder">Email Address:</td> 
+                                <td class="noborder"><input type="email" name="myEmail" id="myEmail"></td>
+                             </tr>
+                             <tr>
+                                <td class="noborder">Password:</td> 
+                                <td class="noborder"><input type="password" name="myPW" id="myPW"></td>
+                             </tr>
+                             <tr>
+                                <td class="noborder">Birth Date:</td> 
+                                <td class="noborder"><input type="date" name="birthDate" id="birthDate"></td>
+                             </tr>
+                             <tr>
+                                <td class="noborder">Contact Time:</td> 
+                                <td class="noborder">
+                                    <input type="radio" name="contactTime" id="contactTimeAny" value="any"><label for="contactTimeAny">Anytime</label><br>
+                                    <input type="radio" name="contactTime" id="contactTimeAM" value="am"><label for="contactTimeAM">AM</label><br>
+                                    <input type="radio" name="contactTime" id="contactTimePM" value="pm"><label for="contactTimePM">PM</label><br>
+                                    <input type="radio" name="contactTime" id="contactTimeCustom" value="custom"><label for="contactTimeCustom">Specific</label>
+                                    <input type="time" name="contactCustomTime" id="contactCustomTime">
+                                </td>
+                             </tr>
+                        </table>
+                    </td>
+                    <!-- RIGHT COLUMN -->
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="noborder">Checkboxes:</td>
+                                <td class="noborder">
+                                    <input type="checkbox" name="demoCheckBox" id="demoCheckBox1" value="1"><label for="demoCheckBox1">1</label>
+                                    <input type="checkbox" name="demoCheckBox" id="demoCheckBox2" value="2"><label for="demoCheckBox2">2</label>
+                                    <input type="checkbox" name="demoCheckBox" id="demoCheckBox3" value="3"><label for="demoCheckBox3">3</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="noborder">Select List:</td>
+                                <td class="noborder">
+                                    <select name="mySelectList" id="mySelectList" multiple size="2">
+                                        <option value="1">Lorem, ipsum dolor.</option>
+                                        <option value="2">Facere, ducimus tempora!</option>
+                                        <option value="3">Optio, suscipit voluptate.</option>
+                                        <option value="4">Dolor, explicabo repellendus!</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="noborder">Textarea:</td>
+                                <td class="noborder">
+                                  <textarea name="myTextArea" id="myTextArea" cols="20" rows="4">Default value</textarea>  
+                            </tr>
+                            <tr>
+                                <td class="noborder">Upload:</td>
+                                <td class="noborder"><input type="file" name="myFile" id="myFile"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <input type="reset" name="resetBtn" value="RESET FORM"> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="submitBtn" value="SUBMIT FORM">
+        </form>
+
+   </section>
+   <hr>
+   <section>
+        <h3 class="sectionHeader">Multimedia</h3>
+        <img src="C:\Users\Ender\OneDrive\Desktop\Coding && Pentest\C777\Kevin's Portfolio\image23456.webp" alt="Aspiring Web Developer" width="99%">
+        <audio src="C:\Users\Ender\OneDrive\Desktop\Coding && Pentest\C777\Kevin's Portfolio\lolamoorecalmacousticbackground.mp3" controls>
+            Time to update your browser! Audio element in use. 
+        </audio>
+        <video src="C:\Users\Ender\OneDrive\Desktop\Coding && Pentest\C777\large.mp4" width="99%" controls></video>
+   </section>
+</body>
+</html> 

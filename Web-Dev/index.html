@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hands-On with JavaScript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<h1>Hands-On with JavaScript</h1>
+
+	<div class="grid">
+
+		<article>
+
+			<h2>Arithmetic Operators</h2>
+			<P>Variable values: x = <span id="xValue">0</span>, y = <span id="yValue">0</span>.</P>
+
+			<button onclick="add();">Add</button>
+			<button onclick="subtract();">Subtract</button>
+			<button onclick="multiply();">Multiply</button>
+			<button onclick="divide();">Divide</button>
+			<button onclick="increment();">Increment</button>
+			<button onclick="decrement();">Decrement</button>
+
+			<h4>Result is:</h4>
+			<p id="displayresult"></p>
+
+		</article>
+
+		<article>
+
+			<h2>More Math</h2>
+			<h3>Calculate Area and Perimeter</h3>
+			<button onclick="calcRectangle();" id="calculate">Begin</button>
+
+			<h4>Area is:</h4>
+			<p id="areaResult"></p>
+
+			<h4>Perimeter is:</h4>
+			<p id="perimeterResult"></p>
+
+	   </article>
+
+		<article>
+
+			<h2>Assignment Operator</h2>
+
+			<button onclick="avgCalc();">Show Example</button>
+			<h4>Average is:</h4>
+			<p id="avgResult"></p>
+
+		</article>
+
+		<article>
+
+			<h2>Comparison Operators</h2>
+
+			<button onclick="numGuess();">Guess</button>
+
+		</article>
+
+	</div>
+
+	<script>loadValues();</script>
+
+</body>
+</html>
